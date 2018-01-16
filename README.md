@@ -15,3 +15,10 @@ The script keeps on requesting these pages incrementally, until it finds a _404:
 # sky\_on\_demand\_votes.py
 
 This script interfaces with the free API of [https://www.themoviedb.org](TMDB) and gets ranking and description of every movie in the inut csv file.
+
+# infinity
+
+I recently added a couple of analogous scripts for Mediaset Infinity. Main
+probelm was that the content in their pages is dynamically loaded after the
+source is sent out, so that I had to figure out which request pointed to the
+right data. Then it was just reading a json and stripping the titles.

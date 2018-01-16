@@ -1,3 +1,4 @@
 tmdb_api.py
 *.csv
 .DS_Store
+*.xlsx
